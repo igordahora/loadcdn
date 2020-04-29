@@ -106,7 +106,7 @@
 }
 
 .rcw-client .rcw-message-text {
-	background-color: #a3eaf7;
+	background-color: #B6D7F0;
 	border-radius: 10px;
 	padding: 15px;
 	max-width: 215px;
@@ -140,8 +140,8 @@
 }
 
 .rcw-avatar {
-	width: 40px;
-	height: 40px;
+	width: 55px;
+	height: 55px;
 	border-radius: 100%;
 	margin-right: 10px
 }
