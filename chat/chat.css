@@ -65,7 +65,8 @@
 		border-radius: 0;
 		-ms-flex-negative: 0;
 		flex-shrink: 0;
-		position: relative
+		position: relative;
+		margin-top: 4rem;
 	}
 	.rcw-conversation-container .rcw-title {
 		padding: 0 0 15px
@@ -109,7 +110,7 @@
 	background-color: #B4E7FF;
 	border-radius: 10px;
 	padding: 15px;
-	max-width: 215px;
+	max-width: 290px;
 	text-align: left
 }
 
@@ -131,7 +132,7 @@
 	background-color: #f4f7f9;
 	border-radius: 10px;
 	padding: 15px;
-	max-width: 215px;
+	max-width: 290px;
 	text-align: left
 }
 
@@ -293,11 +294,17 @@
 
 .rcw-send {
 	background: #f4f7f9;
+	outline: none;
 	border: 0
 }
 
+.rcw-send:active, .rcw-send:selected, .rcw-send:visited{
+	outline: none;
+}
+
 .rcw-send .rcw-send-icon {
-	height: 25px
+	height: 25px;
+	cursor: pointer;
 }
 
 @media screen and (max-width:800px) {
@@ -491,7 +498,7 @@
 	-ms-flex-direction: column;
 	flex-direction: column;
 	margin: 0 20px 20px 0;
-	max-width: 350px;
+	max-width: 370px;
 	position: fixed;
 	right: 0;
 	width: 90vw;
